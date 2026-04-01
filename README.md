@@ -85,6 +85,20 @@ Blinkit lacked a centralized analytical system to evaluate sales performance acr
 - Provide actionable insights
 
 ---
+### 📊 Uber Eats Business Performance Analysis & Optimization
+
+📌 Problem Statement
+Uber Eats lacked a centralized analytical system to monitor business performance across cities, restaurants, and customer segments, leading to delayed insights and inefficient decision-making.
+
+---
+
+### 🎯 Objective
+- Analyze overall business performance
+- Identify key revenue drivers and performance gaps
+- Optimize delivery efficiency and customer satisfaction
+- Provide actionable, data-driven insights for faster decision-making
+
+---
 
 #### 📊 Dashboard Highlights
 - 6-page interactive Power BI dashboard
