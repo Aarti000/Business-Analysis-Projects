@@ -1,0 +1,122 @@
+SQL QUERIES
+
+
+🟣 1. TOTAL REVENUE
+
+SELECT SUM(total_bill) AS total_revenue
+FROM uber_eats_data;
+
+
+
+🟣 2. TOTAL ORDERS
+
+SELECT COUNT(*) AS total_orders
+FROM uber_eats_data;
+
+
+
+🟣 3. AVG DELIVERY TIME
+
+SELECT AVG(delivery_time) AS avg_delivery_time
+FROM uber_eats_data;
+
+
+
+🟣 4. AVG CUSTOMER RATING
+
+SELECT AVG(feedback_rating) AS avg_rating
+FROM uber_eats_data;
+
+
+
+🟣 5. REVENUE BY RESTAURANT
+
+SELECT restaurant, SUM(total_bill) AS revenue
+FROM uber_eats_data
+GROUP BY restaurant
+ORDER BY revenue DESC;
+
+
+
+🟣 6. TOP 5 RESTAURANTS
+
+SELECT restaurant, 
+       SUM(total_bill) AS revenue,
+       AVG(feedback_rating) AS avg_rating
+FROM uber_eats_data
+GROUP BY restaurant
+ORDER BY revenue DESC
+LIMIT 5;
+
+
+
+🟣 7. ORDERS BY CITY
+
+SELECT city, COUNT(*) AS total_orders
+FROM uber_eats_data
+GROUP BY city
+ORDER BY total_orders DESC;
+
+
+
+🟣 8. AVG DELIVERY TIME BY CITY
+
+SELECT city, AVG(delivery_time) AS avg_delivery_time
+FROM uber_eats_data
+GROUP BY city
+ORDER BY avg_delivery_time DESC;
+
+
+
+🟣 9. LOW RATING CITIES
+
+SELECT city, AVG(feedback_rating) AS avg_rating
+FROM uber_eats_data
+GROUP BY city
+HAVING AVG(feedback_rating) < 3.5;
+
+
+🟣 10. LOW REVENUE CITIES
+
+SELECT city, SUM(total_bill) AS revenue
+FROM uber_eats_data
+GROUP BY city
+HAVING SUM(total_bill) < (
+    SELECT AVG(city_revenue)
+    FROM (
+        SELECT SUM(total_bill) AS city_revenue
+        FROM uber_eats_data
+        GROUP BY city
+    ) AS subquery
+);
+
+
+🟣 11. PAYMENT METHOD DISTRIBUTION
+
+SELECT payment_method, COUNT(*) AS total_orders
+FROM uber_eats_data
+GROUP BY payment_method
+ORDER BY total_orders DESC;
+
+
+🟣 12. CUSTOMER SEGMENTATION (AGE GROUP)
+
+SELECT age_group, COUNT(*) AS total_customers
+FROM uber_eats_data
+GROUP BY age_group
+ORDER BY total_customers DESC;
+
+
+🟣 13. DELIVERY TIME VS RATING (RELATION)
+
+SELECT delivery_time, feedback_rating
+FROM uber_eats_data;
+
+
+🟣 14. TOP PROBLEM CITIES (HIGH DELIVERY TIME)
+
+SELECT city, AVG(delivery_time) AS avg_delivery_time
+FROM uber_eats_data
+GROUP BY city
+ORDER BY avg_delivery_time DESC
+LIMIT 5;
