@@ -1,187 +1,192 @@
-# Business-Analysis-Projects
 # 👩‍💼 Business Analyst Portfolio – Aarti Anthwal
 
 ## 🚀 About Me
-I am a Business Analyst with a strong foundation in data analysis, requirement gathering, and stakeholder management. 
 
-I specialize in translating business problems into structured, data-driven solutions using tools like Power BI, Excel, SQL, and Jira.
+Business Analyst with a strong focus on **data-driven decision making, experimentation, and business problem solving**.
 
-This portfolio showcases end-to-end Business Analyst projects covering the complete lifecycle — from business understanding to insights and validation.
+Skilled in translating ambiguous business problems into structured analytical solutions using **SQL, Power BI, Excel, and statistical methods**.
+
+Experienced in working across the **end-to-end analytics lifecycle**—from requirement gathering to insight generation and stakeholder communication.
 
 ---
 
 ## 🧠 Core Skills
 
-### 📊 Data Analysis & Visualization
-- Power BI (Dashboard Development, Data Modeling, DAX)
-- Microsoft Excel (Data Cleaning, Pivot Tables, Advanced Analysis)
-- Data Storytelling & Insight Generation
+### 📊 Data Analytics & Visualization
 
----
+* Power BI (Dashboards, Data Modeling, DAX)
+* Excel (Advanced Analysis, Pivot Tables, Data Cleaning)
+* Data Storytelling & Insight Communication
 
-### 📄 Business Analysis & Documentation
-- Requirement Gathering & Elicitation
-- BRD (Business Requirements Document)
-- FRD (Functional Requirements Document)
-- DRD (Data Requirements Document)
-- KPI Definition & Performance Tracking
-- Data Dictionary Creation
-- User Stories & Acceptance Criteria
-- Gap Analysis
+### 📄 Business Analysis
 
----
+* Requirement Gathering & Stakeholder Management
+* BRD, FRD, DRD Documentation
+* KPI Definition & Business Metrics Tracking
+* Gap Analysis & Process Improvement
 
 ### ⚙️ Tools & Technologies
-- Power BI  
-- Microsoft Excel  
-- SQL  
-- Jira (Agile Project Management, User Story Tracking)  
-- Confluence (Documentation & Collaboration)  
-- PowerPoint (Stakeholder Presentation)
 
----
+* SQL
+* Power BI
+* Excel
+* Jira (Agile, Sprint Tracking)
+* Confluence (Documentation)
 
-### 🔄 Agile & Project Management
-- Agile Methodology (Scrum Framework)
-- Sprint Planning & Backlog Management
-- User Story Writing & Prioritization
-- UAT (User Acceptance Testing)
-- Defect Tracking & Resolution
+### 🔄 Analytics & Experimentation
 
----
-
-### 🧮 Technical Skills
-- Data Modeling (Star Schema)
-- DAX (Measures, KPIs, Calculations)
-- Basic SQL Queries (SELECT, JOIN, GROUP BY)
-- Data Cleaning & Transformation
-
----
+* A/B Testing & Hypothesis Testing
+* Statistical Analysis (Mean, Distribution, Significance Testing)
+* KPI Monitoring & Forecasting
 
 ### 🤝 Soft Skills
-- Analytical Thinking
-- Problem Solving
-- Stakeholder Communication
-- Requirement Translation (Business → Technical)
-- Presentation & Storytelling
+
+* Structured Problem Solving
+* Cross-functional Collaboration
+* Business Communication
+* Analytical Thinking
 
 ---
 
-## 📂 Featured Projects
+# 📂 Featured Project
+
+## 📊 Blinkit Retail Sales Performance & Outlet Optimization
 
 ---
 
-### 📊 Blinkit Retail Sales Performance & Outlet Optimization
+### 📌 Problem Statement
 
-#### 📌 Problem Statement
-Blinkit lacked a centralized analytical system to evaluate sales performance across outlets, product categories, and customer preferences, leading to inefficient decision-making.
-
----
-
-#### 🎯 Objective
-- Analyze sales performance
-- Identify revenue drivers
-- Optimize outlet performance
-- Provide actionable insights
-
----
-### 📊 Uber Eats Business Performance Analysis & Optimization
-
-📌 Problem Statement
-Uber Eats lacked a centralized analytical system to monitor business performance across cities, restaurants, and customer segments, leading to delayed insights and inefficient decision-making.
+Blinkit lacked a centralized analytics system to evaluate **sales performance across outlet tiers, product categories, and customer preferences**, leading to inefficient decision-making and missed growth opportunities.
 
 ---
 
 ### 🎯 Objective
-- Analyze overall business performance
-- Identify key revenue drivers and performance gaps
-- Optimize delivery efficiency and customer satisfaction
-- Provide actionable, data-driven insights for faster decision-making
+
+* Analyze sales performance across outlet types
+* Identify key revenue drivers
+* Optimize outlet-level strategy
+* Enable data-driven business decisions
 
 ---
 
-#### 📊 Dashboard Highlights
-- 6-page interactive Power BI dashboard
-- KPI tracking (Sales, Transactions, Ratings)
-- Outlet performance analysis
-- Product and category insights
-- Customer behavior analysis
-- Trend and growth analysis
+## 🧪 A/B Testing: Tier 1 vs Tier 3 Performance Analysis
+
+### 📌 Business Hypothesis
+
+* **H0 (Null Hypothesis):** No significant difference in sales between Tier 1 and Tier 3 outlets
+* **H1 (Alternative Hypothesis):** Tier 3 outlets generate significantly higher sales than Tier 1
 
 ---
 
-#### 📄 Business Analysis Deliverables
-- ✔ Problem Statement
-- ✔ Business Understanding
-- ✔ SWOT Analysis
-- ✔ Stakeholder Analysis
-- ✔ BRD, FRD, DRD
-- ✔ KPI Document
-- ✔ Data Dictionary
-- ✔ UAT (User Acceptance Testing)
-- ✔ Risk Analysis
+### ⚙️ Approach
+
+* Segmented data into:
+
+  * **Control Group (A): Tier 1 outlets**
+  * **Variant Group (B): Tier 3 outlets**
+* Defined key metrics:
+
+  * Total Revenue
+  * Number of Transactions
+  * Average Sales per Outlet
+* Performed **statistical comparison (mean difference & significance testing)**
+* Built comparative visuals in Power BI
 
 ---
 
-#### 🔍 Key Insights
-- Tier 3 locations generate the highest revenue
-- Supermarket Type1 dominates sales
-- Low-fat products contribute ~65% of sales
-- Revenue concentrated in top categories
-- Sales growth plateau observed
+### 📊 Results
+
+* Tier 3 outlets showed **higher average revenue contribution** compared to Tier 1
+* Observed **clear performance gap across outlet types**
+* Results indicated a **statistically meaningful difference in sales trends**
 
 ---
 
-#### 💡 Recommendations
-- Expand Tier 3 operations
-- Improve Tier 1 & Tier 2 performance
-- Optimize product mix
-- Promote high-demand categories
-- Improve customer satisfaction
+### 💡 Business Impact
+
+* Identified **Tier 3 as a high-growth segment**
+* Enabled targeted expansion strategy
+* Provided data-backed justification for **resource allocation and marketing focus**
 
 ---
 
-#### 🛠️ Tools Used
-- Power BI
-- Excel
-- DAX
+## 📊 Dashboard Highlights
+
+* 6-page interactive Power BI dashboard
+* KPI tracking (Sales, Transactions, Ratings)
+* Outlet tier performance comparison
+* Product & category-level insights
+* Customer behavior analysis
+* Trend and growth analysis
+
+---
+
+## 📄 Business Analysis Deliverables
+
+* Business Understanding & Problem Definition
+* Stakeholder Analysis
+* BRD, FRD, DRD Documentation
+* KPI Definition Document
+* Data Dictionary
+* UAT (User Acceptance Testing)
+* Risk Analysis
+
+---
+
+## 🔍 Key Insights
+
+* Tier 3 outlets generate the **highest revenue contribution**
+* Supermarket Type 1 dominates overall sales
+* Low-fat products contribute ~65% of revenue
+* Sales are concentrated in a few high-performing categories
+* Growth plateau observed in certain outlet segments
+
+---
+
+## 💡 Recommendations
+
+* Expand operations in Tier 3 locations
+* Improve performance strategies for Tier 1 outlets
+* Optimize product mix based on demand patterns
+* Focus marketing efforts on high-performing categories
+* Enhance customer experience in low-performing regions
 
 ---
 
 ## 🔄 Business Analysis Workflow
 
-1. Business Understanding  
-2. Problem Definition  
-3. Requirement Gathering  
-4. Documentation (BRD, FRD, DRD)  
-5. Data Analysis & KPI Definition  
-6. Dashboard Development  
-7. Insight Generation  
-8. UAT & Validation  
-9. Risk Analysis  
+1. Business Understanding
+2. Problem Definition
+3. Requirement Gathering
+4. Documentation (BRD, FRD, DRD)
+5. Data Analysis & KPI Definition
+6. Dashboard Development
+7. Experimentation (A/B Testing)
+8. Insight Generation
+9. UAT & Validation
 
 ---
 
-## 📈 What Makes This Portfolio Strong
+## 📈 What Makes This Project Strong
 
-✔ End-to-end Business Analyst lifecycle  
-✔ Real-world business problem solving  
-✔ Strong documentation (BRD, FRD, KPI, etc.)  
-✔ Data-driven insights & recommendations  
-✔ Agile + Tools (Jira, Confluence) included  
+✔ End-to-end Business Analyst lifecycle
+✔ Integration of **A/B testing & statistical analysis**
+✔ Strong business documentation (BRD, KPI, etc.)
+✔ Data-driven insights & actionable recommendations
+✔ Use of industry tools (Power BI, Jira, SQL)
 
 ---
 
 ## 🎯 Career Objective
 
-To secure a Business Analyst role where I can leverage data analysis, business understanding, and stakeholder management skills to drive impactful business decisions.
+To secure a Business Analyst role where I can leverage **analytics, experimentation, and business understanding** to drive impactful decisions in a fast-paced environment.
 
 ---
 
 ## 📬 Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/aarti-anthwal-454422262 
-- Email: aartyanthwal@gmail.com 
+* LinkedIn: https://www.linkedin.com/in/aarti-anthwal-454422262
+* Email: [aartyanthwal@gmail.com](mailto:aartyanthwal@gmail.com)
 
 ---
 
